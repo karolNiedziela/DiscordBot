@@ -1,0 +1,15 @@
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL.Migrations\bin\Debug\netcoreapp3.1\CustomBot.DAL.Migrations.deps.json
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL.Migrations\bin\Debug\netcoreapp3.1\CustomBot.DAL.Migrations.runtimeconfig.json
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL.Migrations\bin\Debug\netcoreapp3.1\CustomBot.DAL.Migrations.runtimeconfig.dev.json
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL.Migrations\bin\Debug\netcoreapp3.1\CustomBot.DAL.Migrations.dll
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL.Migrations\bin\Debug\netcoreapp3.1\CustomBot.DAL.Migrations.pdb
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL.Migrations\bin\Debug\netcoreapp3.1\CustomBot.DAL.dll
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL.Migrations\bin\Debug\netcoreapp3.1\CustomBot.DAL.pdb
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL.Migrations\obj\Debug\netcoreapp3.1\CustomBot.DAL.Migrations.csprojAssemblyReference.cache
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL.Migrations\obj\Debug\netcoreapp3.1\CustomBot.DAL.Migrations.AssemblyInfoInputs.cache
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL.Migrations\obj\Debug\netcoreapp3.1\CustomBot.DAL.Migrations.AssemblyInfo.cs
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL.Migrations\obj\Debug\netcoreapp3.1\CustomBot.DAL.Migrations.csproj.CoreCompileInputs.cache
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL.Migrations\obj\Debug\netcoreapp3.1\CustomBot.DAL.Migrations.csproj.CopyComplete
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL.Migrations\obj\Debug\netcoreapp3.1\CustomBot.DAL.Migrations.dll
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL.Migrations\obj\Debug\netcoreapp3.1\CustomBot.DAL.Migrations.pdb
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL.Migrations\obj\Debug\netcoreapp3.1\CustomBot.DAL.Migrations.genruntimeconfig.cache
