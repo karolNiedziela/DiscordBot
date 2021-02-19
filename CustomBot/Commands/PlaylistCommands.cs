@@ -118,7 +118,7 @@ namespace CustomBot.Commands
         public async Task Load(CommandContext ctx, [Description("Playlist name")] string playlistName)
         {
             var playlist = await _context.Playlists.Include(p => p.Songs).ThenInclude(s => s.Song)
-                                 .SingleOrDefaultAsync(p => p.Name == playlistName && p.ServerName == ctx.Guild.Name);
+                                 .SingleOrDefaultAsync(p => p.Name == playlistName && p.ServerId == ctx.Guild.Id);
 
             if (playlist == null)
             {
