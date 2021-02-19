@@ -8,9 +8,9 @@ namespace CustomBot.DAL
 {
     public class BotContext : DbContext
     {
+
         public BotContext(DbContextOptions<BotContext> options) : base(options)
         {
-
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -19,7 +19,9 @@ namespace CustomBot.DAL
         }
 
         public DbSet<Song> Songs { get; set; }
+
         public DbSet<Playlist> Playlists { get; set; }
+
         public DbSet<PlaylistSong> PlaylistSongs { get; set; }
     }
 }

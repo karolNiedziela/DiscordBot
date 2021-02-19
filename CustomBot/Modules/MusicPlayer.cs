@@ -58,7 +58,7 @@ namespace CustomBot.Modules
         {
             var loadResult = await Node.Rest.GetTracksAsync(song.Title, LavalinkSearchType.Youtube);
             Queue.Enqueue(loadResult.Tracks.First());
-            GetCurrentTrackAsync();
+            await GetCurrentTrackAsync();
         }
 
         public void RemoveSong()
@@ -66,8 +66,13 @@ namespace CustomBot.Modules
             Queue.Dequeue();
         }
 
-        private void GetCurrentTrackAsync()
+        private async Task GetCurrentTrackAsync()
         {
+            if (Queue.Count() == 0)
+            {
+                var embed = new PlaylistEmbedBuilder($"No more tracks on playlist");
+                await _ctx.RespondAsync(embed: embed.EmbedBuilder);
+            }
             CurrentSong = Queue.Peek();
         }
 
@@ -151,7 +156,7 @@ namespace CustomBot.Modules
 
             RemoveSong();
 
-            GetCurrentTrackAsync();
+            await GetCurrentTrackAsync();
 
             await Play();
         }

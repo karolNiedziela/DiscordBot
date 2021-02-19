@@ -40,7 +40,7 @@ namespace CustomBot
         {
             var json = string.Empty;
 
-            using (var fs = File.OpenRead(Path.GetFullPath(@"C:\Users\niedz\Desktop\C#\CustomBot\CustomBot\bin\Debug\netcoreapp3.1\config.json")))
+            using (var fs = File.OpenRead(Path.GetFullPath(@"C:\Users\niedz\Desktop\C#\CustomBot\CustomBot\bin\Debug\net5.0\config.json")))
             using (var sr = new StreamReader(fs, new UTF8Encoding(false)))
                 json = await sr.ReadToEndAsync();
 

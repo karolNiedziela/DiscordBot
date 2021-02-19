@@ -14,8 +14,8 @@ namespace CustomBot.DAL.Migrations.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
+                .HasAnnotation("ProductVersion", "5.0.3")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("CustomBot.DAL.Models.Playlist", b =>
@@ -27,6 +27,9 @@ namespace CustomBot.DAL.Migrations.Migrations
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("ServerId")
+                        .HasColumnType("decimal(20,0)");
 
                     b.Property<string>("ServerName")
                         .HasColumnType("nvarchar(max)");
@@ -79,6 +82,20 @@ namespace CustomBot.DAL.Migrations.Migrations
                         .HasForeignKey("SongId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Playlist");
+
+                    b.Navigation("Song");
+                });
+
+            modelBuilder.Entity("CustomBot.DAL.Models.Playlist", b =>
+                {
+                    b.Navigation("Songs");
+                });
+
+            modelBuilder.Entity("CustomBot.DAL.Models.Song", b =>
+                {
+                    b.Navigation("Playlists");
                 });
 #pragma warning restore 612, 618
         }

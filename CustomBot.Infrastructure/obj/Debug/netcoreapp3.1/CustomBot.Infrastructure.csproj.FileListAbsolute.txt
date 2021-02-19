@@ -1,12 +1,12 @@
-C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.Infrastructure\obj\Debug\netcoreapp3.1\CustomBot.Infrastructure.csprojAssemblyReference.cache
-C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.Infrastructure\obj\Debug\netcoreapp3.1\CustomBot.Infrastructure.AssemblyInfoInputs.cache
-C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.Infrastructure\obj\Debug\netcoreapp3.1\CustomBot.Infrastructure.AssemblyInfo.cs
-C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.Infrastructure\obj\Debug\netcoreapp3.1\CustomBot.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.Infrastructure\bin\Debug\netcoreapp3.1\CustomBot.Infrastructure.deps.json
 C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.Infrastructure\bin\Debug\netcoreapp3.1\CustomBot.Infrastructure.dll
 C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.Infrastructure\bin\Debug\netcoreapp3.1\CustomBot.Infrastructure.pdb
 C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.Infrastructure\bin\Debug\netcoreapp3.1\CustomBot.DAL.dll
 C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.Infrastructure\bin\Debug\netcoreapp3.1\CustomBot.DAL.pdb
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.Infrastructure\obj\Debug\netcoreapp3.1\CustomBot.Infrastructure.csprojAssemblyReference.cache
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.Infrastructure\obj\Debug\netcoreapp3.1\CustomBot.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.Infrastructure\obj\Debug\netcoreapp3.1\CustomBot.Infrastructure.AssemblyInfo.cs
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.Infrastructure\obj\Debug\netcoreapp3.1\CustomBot.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.Infrastructure\obj\Debug\netcoreapp3.1\CustomBot.Infrastructure.csproj.CopyComplete
 C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.Infrastructure\obj\Debug\netcoreapp3.1\CustomBot.Infrastructure.dll
 C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.Infrastructure\obj\Debug\netcoreapp3.1\CustomBot.Infrastructure.pdb

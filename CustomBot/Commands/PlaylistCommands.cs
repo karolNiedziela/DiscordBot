@@ -36,7 +36,7 @@ namespace CustomBot.Commands
         [Description("Create own playlist saved to current guild")]
         public async Task Create(CommandContext ctx, [Description("Your playlist name")] string playlistName)
         {
-            var playlist = await _context.Playlists.SingleOrDefaultAsync(p => p.Name == playlistName && p.ServerName == ctx.Guild.Name);
+            var playlist = await _context.Playlists.SingleOrDefaultAsync(p => p.Name == playlistName && p.ServerId == ctx.Guild.Id);
 
             if (playlist != null)
             {
@@ -47,6 +47,7 @@ namespace CustomBot.Commands
             playlist = new Playlist
             {
                 Name = playlistName,
+                ServerId = ctx.Guild.Id,
                 ServerName = ctx.Guild.Name
             };
 
@@ -61,7 +62,7 @@ namespace CustomBot.Commands
         [Description("Add song to your playlist")]
         public async Task Add(CommandContext ctx, [Description("Playlist name")] string playlistName, [Description("Song name")][RemainingText] string songName)
         {
-            var playlist = await _context.Playlists.SingleOrDefaultAsync(p => p.Name == playlistName && p.ServerName == ctx.Guild.Name);
+            var playlist = await _context.Playlists.SingleOrDefaultAsync(p => p.Name == playlistName && p.ServerId == ctx.Guild.Id);
 
             if (playlist == null)
             {
@@ -89,7 +90,7 @@ namespace CustomBot.Commands
         [Description("Delete song from your playlist")]
         public async Task Delete(CommandContext ctx, [Description("Playlist name")] string playlistName, [Description("Song name")][RemainingText] string songName)
         {
-            var playlist = await _context.Playlists.Include(p => p.Songs).SingleOrDefaultAsync(p => p.Name == playlistName && p.ServerName == ctx.Guild.Name);
+            var playlist = await _context.Playlists.Include(p => p.Songs).SingleOrDefaultAsync(p => p.Name == playlistName && p.ServerId == ctx.Guild.Id);
 
             if (playlist == null)
             {
