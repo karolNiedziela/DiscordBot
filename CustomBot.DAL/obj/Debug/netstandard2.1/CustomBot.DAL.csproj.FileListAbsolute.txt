@@ -1,0 +1,8 @@
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL\bin\Debug\netstandard2.1\CustomBot.DAL.deps.json
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL\bin\Debug\netstandard2.1\CustomBot.DAL.dll
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL\bin\Debug\netstandard2.1\CustomBot.DAL.pdb
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL\obj\Debug\netstandard2.1\CustomBot.DAL.AssemblyInfoInputs.cache
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL\obj\Debug\netstandard2.1\CustomBot.DAL.AssemblyInfo.cs
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL\obj\Debug\netstandard2.1\CustomBot.DAL.csproj.CoreCompileInputs.cache
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL\obj\Debug\netstandard2.1\CustomBot.DAL.dll
+C:\Users\niedz\Desktop\C#\CustomBot\CustomBot.DAL\obj\Debug\netstandard2.1\CustomBot.DAL.pdb
